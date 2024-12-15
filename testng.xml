@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="utils.ListnerClass"></listener>
+</listeners>
+
+  <test thread-count="5" name="Test">
+    <classes>
+          <class name="Test.TC_001_LoginButtonCheck_TestCase"/>
+      <class name="Test.TC_002_LoginSuccessfullCheck_TestCase"/>
+      <class name="Test.TC_003_LoginWrongIDpassCheck_TestCase"/>
+      <class name="Test.TC_014_BookedScreen_Removeone_TestCase"/>
+      <class name="Test.TC_005_HotelSearchMandatoryFileds_TestCase"/>
+      <class name="Test.TC_006_HotelSearchResetHCheck_TestCase"/>
+      <class name="Test.TC_007_HotelSelectandBook_TestCase"/>
+      <class name="Test.TC_008_HotelBookingDetails_TestCase"/>
+      <class name="Test.TC_009_HotelBookingConfirmation_TestCase"/>
+      <class name="Test.TC_010_HomeScreen_ForgotPasswordLinkCheck_TestCase"/>
+      <class name="Test.TC_011_HomeScreen_Switchtoforgotpass_TestCase"/>
+      <class name="Test.TC_004_LoginSwitchtoSearchHotel_TestCase"/>
+      <class name="Test.TC_015_BookedToSearchHotel_TestCase"/>
+      <class name="Test.TC_016_BookedToSearchHotelVerification_TestCase"/>
+      <class name="Test.TC_017_ChangePassSwitch_TestCase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

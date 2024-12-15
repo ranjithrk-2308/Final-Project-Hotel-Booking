@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Dec 15 16:20:24 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>470 seconds (470532 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Test.TC_016_BookedToSearchHotelVerification_TestCase.switchtosearchcheck()'><b>switchtosearchcheck</b><br>Test class: Test.TC_016_BookedToSearchHotelVerification_TestCase</td>
+<td></td>
+<td>5</td>
+<td>Test.TC_016_BookedToSearchHotelVerification_TestCase@7cc0cdad</td></tr>
+<tr>
+<td title='Test.TC_022_HomeScreen_Logout_TestCase.afterloginlogoutcheckTestCase()'><b>afterloginlogoutcheckTestCase</b><br>Test class: Test.TC_022_HomeScreen_Logout_TestCase</td>
+<td></td>
+<td>6</td>
+<td>Test.TC_022_HomeScreen_Logout_TestCase@48f2bd5b</td></tr>
+<tr>
+<td title='Test.TC_019_Changepass_Wrongconfirmpass_TestCase.WrongconfirmpassCheckTestCase()'><b>WrongconfirmpassCheckTestCase</b><br>Test class: Test.TC_019_Changepass_Wrongconfirmpass_TestCase</td>
+<td></td>
+<td>5</td>
+<td>Test.TC_019_Changepass_Wrongconfirmpass_TestCase@368f2016</td></tr>
+<tr>
+<td title='Test.TC_010_HomeScreen_ForgotPasswordLinkCheck_TestCase.forgotpasswordcheckTestCase()'><b>forgotpasswordcheckTestCase</b><br>Test class: Test.TC_010_HomeScreen_ForgotPasswordLinkCheck_TestCase</td>
+<td></td>
+<td>0</td>
+<td>Test.TC_010_HomeScreen_ForgotPasswordLinkCheck_TestCase@5c6648b0</td></tr>
+<tr>
+<td title='Test.TC_023_BookedCompleteClear_TestCase.clearallBooked()'><b>clearallBooked</b><br>Test class: Test.TC_023_BookedCompleteClear_TestCase</td>
+<td></td>
+<td>6</td>
+<td>Test.TC_023_BookedCompleteClear_TestCase@7b2bbc3</td></tr>
+<tr>
+<td title='Test.TC_006_HotelSearchResetHCheck_TestCase.resetbuttoncheckTestCase()'><b>resetbuttoncheckTestCase</b><br>Test class: Test.TC_006_HotelSearchResetHCheck_TestCase</td>
+<td></td>
+<td>6</td>
+<td>Test.TC_006_HotelSearchResetHCheck_TestCase@2a65fe7c</td></tr>
+<tr>
+<td title='Test.TC_020_ChangePass_PassChangeConfirmation_TestCase.WrongconfirmpassVerificationTestCase()'><b>WrongconfirmpassVerificationTestCase</b><br>Test class: Test.TC_020_ChangePass_PassChangeConfirmation_TestCase</td>
+<td></td>
+<td>13</td>
+<td>Test.TC_020_ChangePass_PassChangeConfirmation_TestCase@4c583ecf</td></tr>
+<tr>
+<td title='Test.TC_015_BookedToSearchHotel_TestCase.switchtoSearchHotelTestCase()'><b>switchtoSearchHotelTestCase</b><br>Test class: Test.TC_015_BookedToSearchHotel_TestCase</td>
+<td></td>
+<td>4</td>
+<td>Test.TC_015_BookedToSearchHotel_TestCase@128d2484</td></tr>
+<tr>
+<td title='Test.TC_014_BookedScreen_Removeone_TestCase.cancelselectedTestCase()'><b>cancelselectedTestCase</b><br>Test class: Test.TC_014_BookedScreen_Removeone_TestCase</td>
+<td></td>
+<td>5</td>
+<td>Test.TC_014_BookedScreen_Removeone_TestCase@459e9125</td></tr>
+<tr>
+<td title='Test.TC_011_HomeScreen_Switchtoforgotpass_TestCase.forgotpassSwitchTestCase()'><b>forgotpassSwitchTestCase</b><br>Test class: Test.TC_011_HomeScreen_Switchtoforgotpass_TestCase</td>
+<td></td>
+<td>3</td>
+<td>Test.TC_011_HomeScreen_Switchtoforgotpass_TestCase@6f1de4c7</td></tr>
+<tr>
+<td title='Test.TC_002_LoginSuccessfullCheck_TestCase.loginconfirmation()'><b>loginconfirmation</b><br>Test class: Test.TC_002_LoginSuccessfullCheck_TestCase</td>
+<td></td>
+<td>5</td>
+<td>Test.TC_002_LoginSuccessfullCheck_TestCase@145f66e3</td></tr>
+<tr>
+<td title='Test.TC_004_LoginSwitchtoSearchHotel_TestCase.switchtosearchhotelTestCase()'><b>switchtosearchhotelTestCase</b><br>Test class: Test.TC_004_LoginSwitchtoSearchHotel_TestCase</td>
+<td></td>
+<td>3</td>
+<td>Test.TC_004_LoginSwitchtoSearchHotel_TestCase@313ac989</td></tr>
+<tr>
+<td title='Test.TC_018_ChangePass_DetailsCheck_TestCase.changepassdetailsCheckTestCase()'><b>changepassdetailsCheckTestCase</b><br>Test class: Test.TC_018_ChangePass_DetailsCheck_TestCase</td>
+<td></td>
+<td>11</td>
+<td>Test.TC_018_ChangePass_DetailsCheck_TestCase@4d5d943d</td></tr>
+<tr>
+<td title='Test.TC_003_LoginWrongIDpassCheck_TestCase.wrongidpasscheckTestCase()'><b>wrongidpasscheckTestCase</b><br>Test class: Test.TC_003_LoginWrongIDpassCheck_TestCase</td>
+<td></td>
+<td>3</td>
+<td>Test.TC_003_LoginWrongIDpassCheck_TestCase@3023df74</td></tr>
+<tr>
+<td title='Test.TC_007_HotelSelectandBook_TestCase.selectinghotelTestCase()'><b>selectinghotelTestCase</b><br>Test class: Test.TC_007_HotelSelectandBook_TestCase</td>
+<td></td>
+<td>6</td>
+<td>Test.TC_007_HotelSelectandBook_TestCase@4135c3b</td></tr>
+<tr>
+<td title='Test.TC_008_HotelBookingDetails_TestCase.bookingdetailsTestCase()'><b>bookingdetailsTestCase</b><br>Test class: Test.TC_008_HotelBookingDetails_TestCase</td>
+<td></td>
+<td>22</td>
+<td>Test.TC_008_HotelBookingDetails_TestCase@34a3d150</td></tr>
+<tr>
+<td title='Test.TC_021_ChangePass_AfterChangelogin_TestCase.afterchangepassloginTestCase()'><b>afterchangepassloginTestCase</b><br>Test class: Test.TC_021_ChangePass_AfterChangelogin_TestCase</td>
+<td></td>
+<td>4</td>
+<td>Test.TC_021_ChangePass_AfterChangelogin_TestCase@692f203f</td></tr>
+<tr>
+<td title='Test.TC_001_LoginButtonCheck_TestCase.loginbuttoncheck()'><b>loginbuttoncheck</b><br>Test class: Test.TC_001_LoginButtonCheck_TestCase</td>
+<td></td>
+<td>0</td>
+<td>Test.TC_001_LoginButtonCheck_TestCase@49e53c76</td></tr>
+<tr>
+<td title='Test.TC_005_HotelSearchMandatoryFileds_TestCase.mandatoryfields()'><b>mandatoryfields</b><br>Test class: Test.TC_005_HotelSearchMandatoryFileds_TestCase</td>
+<td></td>
+<td>7</td>
+<td>Test.TC_005_HotelSearchMandatoryFileds_TestCase@4562e04d</td></tr>
+<tr>
+<td title='Test.TC_009_HotelBookingConfirmation_TestCase.bookingconfirmationTestCase()'><b>bookingconfirmationTestCase</b><br>Test class: Test.TC_009_HotelBookingConfirmation_TestCase</td>
+<td></td>
+<td>18</td>
+<td>Test.TC_009_HotelBookingConfirmation_TestCase@2a4fb17b</td></tr>
+<tr>
+<td title='Test.TC_017_ChangePassSwitch_TestCase.changepasswordswitchTestCase()'><b>changepasswordswitchTestCase</b><br>Test class: Test.TC_017_ChangePassSwitch_TestCase</td>
+<td></td>
+<td>4</td>
+<td>Test.TC_017_ChangePassSwitch_TestCase@7c7b252e</td></tr>
+</table><p>
+</body>
+</html>
